@@ -1,0 +1,71 @@
+* {margin: 0; padding: 0; }
+
+html {
+    background-image: url(bglogo.png);
+}
+html, body {
+    font-family: Helvetica, serif; 
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 1300px;
+    min-height: 100%;
+    margin: 0 auto;
+    
+    background-color: antiquewhite;
+    box-shadow: 0 0 100px black;
+} 
+
+header {
+    background-color:azure;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.line {
+    width:1200px;
+    margin-top: 95px;
+    margin-left: 100px;
+}
+
+.line2 {
+    margin-top: 95px;
+    margin-left: 100px;
+}
+
+.line2:last-child {
+    padding-bottom: 95px;
+}
+
+.image {
+    display: inline-block;
+    position:static;
+    margin-right: 95px;
+}
+
+img {
+    width: 300px;
+}
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: -100px;
+    height: 100px;
+    width: 1300px;
+    background-color: cornflowerblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* А теперь немножко магии*/
+
+img:hover {
+    box-shadow: 0 0 80px black;
+}
