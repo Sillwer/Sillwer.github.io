@@ -12,7 +12,7 @@ html, body {
     position: relative;
     width: 1300px;
     min-height: 100%;
-    margin: 0 auto;
+    margin: 40px auto;
     
     background-color: antiquewhite;
     box-shadow: 0 0 100px black;
