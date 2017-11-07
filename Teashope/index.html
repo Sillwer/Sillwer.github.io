@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Tea shop</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+       
+        <div class="box-logo">
+            <a href="#menu"><img src="images/logo.png" alt="TeaShopeLogo"></a>
+            <div class="soc">
+                <a href="https://ru-ru.facebook.com/tea3.ru/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/StarbucksRussia"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/watch?v=D5BN_5Q0m78"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://ru.pinterest.com/doriannieto/tea-time/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        
+
+        <div class="welcome">
+        <h><br>Добро пожаловать на <br>Tea Shope</h><br><br>
+        <p>Чай на любой вкус.<br> Tea Shope - большой ассортимент, высокое качество.</p>
+        </div>
+        
+        
+		<div id="carousel" class="carousel">
+
+	<input id="carousel-1" type="radio" name="carousel" class="item-active" hidden="true" checked="checked">
+		<div class="item">
+			<label class="control left" for="carousel-3"> « </label>
+			<img src="images/carousel-1.png" alt="image1">
+			<label class="control right" for="carousel-2"> » </label>
+			<div class="name">Music Box</div>
+		</div>
+		
+	<input id="carousel-2" type="radio" name="carousel" class="item-active" hidden="true">
+		<div class="item">
+			<label class="control left" for="carousel-1">	« </label>
+			<img src="images/carousel-2.png" alt="image2">
+			<label class="control right" for="carousel-3"> » </label>
+			<div class="name">Gutenberg Дворцовый</div>
+		</div>
+		
+	<input id="carousel-3" type="radio" name="carousel" class="item-active" hidden="true">
+		<div class="item">
+			<label class="control left" for="carousel-2"> « </label>
+			<img src="images/carousel-3.png" alt="image3">
+			<label class="control right" for="carousel-1"> » </label>
+			<div class="name">Gutenberg черный</div>
+		</div>
+		
+	<ul class="indicators">
+		<li> <label for="carousel-1" class="indicator">•</label> </li>
+		<li> <label for="carousel-2" class="indicator">•</label> </li>
+		<li> <label for="carousel-3" class="indicator">•</label> </li>
+	</ul>
+</div> <!-- CAROUSEL -->
+        
+    </div>
+
+    <div class="content">
+        
+        <div class="sidebar">
+        <ul class="menu" id="menu">
+            <li>МЕНЮ</li>
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="contacts.html#menu">О НАС</a></li>
+            <li><a href="catalog.html#menu">КАТАЛОГ ЧАЯ</a>
+                <ul>
+                    <li><a href="#boxnew">НОВИНКИ</a>
+                        <ul>
+                            <li><a href="#boxnew">ИЮНЬ</a></li>
+                            <li><a href="#boxnew">ИЮЛЬ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="catalog.html#menu">ЗЕЛЕНЫЙ</a></li>
+                    <li><a href="catalog.html#menu">ПУЭР</a></li>
+                    <li><a href="catalog.html#menu">ЧЕРНЫЙ</a></li>
+                </ul>
+            </li>
+            <li><a href="accessories.html#menu">АКСЕССУАРЫ</a>
+                <ul>
+                    <li><a href="accessories.html#menu">СИТЕЧКИ</a></li>
+                    <li><a href="accessories.html#menu">ЗАВАРНИКИ</a></li>
+                    <li><a href="accessories.html#menu">ЧАЙНИКИ</a></li>
+                </ul>
+            </li>
+            <li><a href="#boxaction">РАСПРОДАЖА</a></li>
+            <li><a href="#brands">БРЕНДЫ</a></li>
+            <li><a href="http://onlytea.ru/">БЛОГ</a></li>
+            <li><a href="contacts.html">КОНТАКТЫ</a></li>
+        </ul>
+            <div class="open"><p>МЫ ОТКРЫЛИСЬ</p></div>
+        </div>
+             
+
+       <div class="way">
+       		<ul id="li1">
+       			<li>
+       				<a href="index.html#menu">Главная</a>
+       			</li>
+       			<li>
+       			</li>
+       		</ul>
+       </div>
+       
+        <div class="th" id="boxnew">НОВИНКИ</div>   
+        <div class="itembox">
+           <div>
+			   <a href="catalog/black/alica/alica.html#menu">
+               <img src="catalog/black/alica/alica.png" alt="alica"></a>
+                <span class="price"><a href="catalog/black/alica/alica.html#menu">
+                "Алиса в зазеркалье"<p>501.92 руб</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/green/femrich/femrich.html#menu">
+                <img src="catalog/green/femrich/femrich.png" alt="femrich"></a>
+                <span class="price"><a href="catalog/green/femrich/femrich.html#menu">
+                FemRich 202г. чай зел. с Жасмином<p>109.3 руб.</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/puer/gold/gold.html#menu">
+                <img src="catalog/puer/gold/gold.png" alt="gold"></a>
+				<span class="price"><a href="catalog/puer/gold/gold.html#menu">
+           "Золотое гнездо с ароматными листьями"<p>208.38 руб.</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/black/musicbox/musicbox.html#menu">
+                <img src="catalog/black/musicbox/musicbox.png" alt="musicbox"></a>
+                <span class="price"><a href="catalog/black/musicbox/musicbox.html#menu">
+                Музыкальная шкатулка "Мелодия ветра"<p>510.34 руб</p></a></span>
+            </div>
+            <div>
+               <a href="catalog/green/linglong/linglong.html#menu">
+               <img src="catalog/green/linglong/linglong.png" alt="linglong"></a>
+                <span class="price"><a href="catalog/green/linglong/linglong.html#menu">
+                Зелен Облако и Туман<p>76.71 руб.</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/puer/golddragon/golddragon.html#menu">
+                <img src="catalog/puer/golddragon/golddragon.png" alt="golddragon"></a>
+                <span class="price"><a href="catalog/puer/golddragon/golddragon.html#menu">
+                Золотое сердце дракона<p>112.41 руб.</p></a></span>
+            </div>
+        </div>
+    
+       	<div class="th">ЛУЧШЕЕ</div>
+        <div class="top" id="boxtop">
+            <div>
+                <a href="catalog/puer/gutenberg_d/gutenberg_d.html#menu">
+                <img src="catalog/puer/gutenberg_d/gutenberg_d.png" alt="linglong"></a>
+                <span class="price"><a href="catalog/puer/gutenberg_d/gutenberg_d.html#menu">
+                Зелен Облако и Туман<p>76.71 руб.</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/puer/gold/gold.html#menu">
+                <img src="catalog/puer/gold/gold.png" alt="gold"></a>
+                <span class="price"><a href="catalog/puer/gold/gold.html#menu">
+                "Золотое гнездо с ароматными листьями"<p>208.38 руб.</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/black/alica/alica.html#menu">
+                <img src="catalog/black/alica/alica.png" alt="alica"></a>
+                <span class="price"><a href="catalog/black/alica/alica.html#menu">
+                "Алиса в зазеркалье"<p>501.92 руб</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/black/gutenberg_erl/gutenberg_erl.html#menu">
+                <img src="catalog/black/gutenberg_erl/gutenberg_erl.png"></a>
+                <span class="price"><a href="catalog/black/gutenberg_erl/gutenberg_erl.html#menu">
+                Gutenberg черный<p>1000 руб</p></a></span>
+            </div>
+        </div>
+        
+       
+        <div class="th" id="boxaction">РАСПРОДАЖА</div>
+        <div class="action">  
+            <div>
+                <a href="catalog/green/femrich/femrich.html#menu">
+                <img src="catalog/green/femrich/femrich.png" alt="femrich"></a>
+                <span class="price"><a href="catalog/green/femrich/femrich.html#menu">
+                FemRich 202г. чай зел. с Жасмином<p>109.3 руб.</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/black/musicbox/musicbox.html#menu">
+                <img src="catalog/black/musicbox/musicbox.png" alt="musicbox"></a>
+                <span class="price"><a href="catalog/black/musicbox/musicbox.html#menu">
+                Музыкальная шкатулка "Мелодия ветра"<p>510.34 руб</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/puer/golddragon/golddragon.html#menu">
+                <img src="catalog/puer/golddragon/golddragon.png" alt="golddragon"></a>
+                <span class="price"><a href="catalog/puer/golddragon/golddragon.html#menu">
+                Золотое сердце дракона<p>112.41 руб.</p></a></span>
+            </div>
+            <div>
+                <a href="catalog/green/gutenberg_x/gutenberg_x.html#menu">
+                <img src="catalog/green/gutenberg_x/gutenberg_x.png"></a>
+                <span class="price"><a href="catalog/green/gutenberg_x/gutenberg_x.html#menu">
+                Gutenberg Зеленый<p>401.50 руб</p></a></span>
+            </div>
+        </div>
+    
+       
+       
+       <table class=brand id="brands">
+       	<tr>
+       		<td>БЕСЕДА</td>
+       		<td>BROOKE BOND</td>
+       		<td>LIPTON</td>
+       		<td>GREENFIELD</td>
+       		<td>TESS</td>
+       		<td>МАЙСКИЙ ЧАЙ</td>
+       		<td>GORDON</td>
+       		<td>ЛИСМА</td>
+       	</tr>
+       </table>
+       
+    
+       <table class="instagram">
+       	<tr>
+       		<th colspan="6" >
+       			<a href="https://www.instagram.com/explore/tags/teadrinking/">
+       			<i class="fa fa-instagram fa-2x" aria-hidden="true"></i> Instagram: #teashope
+       			</a>
+       		</th>
+       	</tr>
+       	<tr>
+       		<td><a href="images/instagram1f.jpg">
+       		<img src="images/instagram1.jpg" alt="instagram1.jpg"></a></td>
+       		<td><a href="images/instagram2f.jpg">
+       		<img src="images/instagram2.jpg" alt="instagram2.jpg"></a></td>
+       		<td><a href="images/instagram3f.jpg">
+       		<img src="images/instagram3.jpg" alt="instagram3.jpg"></a></td>
+       		<td><a href="images/instagram4f.jpg">
+       		<img src="images/instagram4.jpg" alt="instagram4.jpg"></a></td>
+       		<td><a href="images/instagram5f.jpg">
+       		<img src="images/instagram5.jpg" alt="instagram5.jpg"></a></td>
+       		<td><a href="images/instagram6f.jpg">
+       		<img src="images/instagram6.jpg" alt="instagram6.jpg"></a></td>
+       	</tr>
+       		<tr><td></td></tr>
+       </table> <!-- INSTAGRAM -->   
+        
+        <div class="cl"></div>
+        
+    </div>
+  
+</div> <!-- CONTAINER -->
+
+<table class="footer">
+ 		<tr>
+ 			<td>
+ 			<div class="botsoc">
+            <a href="https://ru-ru.facebook.com/tea3.ru/"><span id="f"></span></a>
+            <a href="https://twitter.com/StarbucksRussia"><span id="tw"></span></a>
+            <a href="https://ru.pinterest.com/doriannieto/tea-time/"><span id="pin"></span></a>
+			</div>	
+ 			</td>
+ 		</tr>
+    	<tr>
+    	<td>
+    	<ul>
+          <li>Категория</li>
+          <li><a href="contacts.html">О Нас</a></li>
+          <li><a href="catalog.html">Каталог чая</a></li>
+          <li><a href="accessories.html">Аксессуары</a></li>
+          <li><a href="#boxaction">Распродажа</a></li>
+          <li><a href="#brands">Бренды</a></li>
+          <li><a href="http://onlytea.ru/">Блог</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+      	</ul>      
+      <ul>
+          <li>Наш Аккаунт</li>
+          <li><a href="#1">Ваш Аккаунт</a></li>
+          <li><a href="#1">Персональная информация</a></li>
+          <li><a href="#1">Адреса</a></li>
+          <li><a href="#1">Скидки</a></li>
+          <li><a href="#1">История заказов</a></li>
+          <li><a href="#1">Адреса</a></li>
+          <li><a href="#1">Категории поиска</a></li>
+      </ul>      
+      <ul>
+          <li>Поддержка</li>
+          <li><a href="#1">Карта cайта</a></li>
+          <li><a href="#1">Категории поиска</a></li>
+          <li><a href="#1">Расширенный поиск</a></li>
+          <li><a href="#1">Большая версия</a></li>
+          <li><a href="contacts.html#menu">Наши контакты</a></li>
+          <li><a href="contacts.html#menu">Телефоны</a></li>
+          <li><a href="contacts.html#menu">Адреса</a></li>
+      </ul>
+      <ul>
+          <li>Подписка</li>
+          <li>Присоединяйтесь к нам, подпишитесь на наши новости</li>
+          <li>
+            <form action="" name="">
+           <input type="email" name="" placeholder="ВАШ EMAIL"> <input type="submit" value="ПОДПИСАТЬСЯ">
+            </form>
+          </li>
+          <li>
+             <br>
+              <img src="images/aex.png">
+              <img src="images/mastercard.png">
+              <img src="images/maestero.png">
+              <img src="images/paypal.png">
+              <img src="images/discover.png">
+          </li>
+      </ul>
+      <ul>
+          <li>О Нас</li>
+          <li>Tea Shop крупный интернет-магазин, продающий чай 
+           лучших и проверенный торговых представителей.</li>
+           <li><br></li>
+          <li>Телефон: 8(909) 858-33-33</li>
+          <li>Email: <spane><a href="contacts.html#menu">teashope@mail.ru</a></spane></li>
+      </ul>
+    	</td>
+    	</tr>
+    	<tr>
+    	<td>
+    		&copy; TEA SHOPE Все права зарегистрированы - Разработано Sillwer
+          		<spane>
+				<a href="https://ru-ru.facebook.com/tea3.ru/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/StarbucksRussia"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://ru.pinterest.com/doriannieto/tea-time/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-rss"></i></a>
+          		</spane>
+    	</td>
+    	</tr>
+    </table> <!-- FOOTER -->
+
+</body>
+</html>
